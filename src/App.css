@@ -1,0 +1,10 @@
+.card{
+  box-shadow: -10px -10px 7px rgb(13,202,240);
+}
+
+.card:hover{
+  box-shadow: -10px -10px 7px plum;
+  transform:rotate(360deg) scale(1.1) ;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
